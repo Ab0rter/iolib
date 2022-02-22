@@ -1,5 +1,8 @@
-#include "lib/libio.h"
+#include "lib/libio.c"
 
 int main() {
-	print("Hello\n", 6);
+	int number = 1234;
+	
+	printn(number);
+	prints("\n");
 }
