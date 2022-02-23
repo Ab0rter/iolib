@@ -1,8 +1,11 @@
 #include "lib/libio.c"
 
 int main() {
-	int number = 1234;
+	char string[100];
 	
-	printn(number);
-	prints("\n");
+	printString("Write a string\n");
+	scanString(string);
+	printString(string);
+
+	return 0;
 }
