@@ -1,2 +1,2 @@
 # libio
-Input/Output library for c
+C Input/Output library for 32 bit arm processor
